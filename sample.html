@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Elements demo</title>
+        <link rel="stylesheet" href="elements.css" />
+        <style>
+            h1 { text-align: center }
+            table { border:none }
+            table td { padding:10px; }
+            textarea, input[type="text,password,email,"] { width: 400px }
+            select { width:410px }
+            table.listTable { width:500px }
+        </style>
+    </head>
+    <body>
+        <h1>Buttons</h1>
+        <table>
+            <tr>
+                <td style="width:150px;">
+                    <button class="button-back"><span class="icon"></span> Back</button>
+                </td>
+                <td style="width:150px;">
+                    <button class="button-loading">Loading <span class="icon"></span></button>
+                </td>
+                <td>
+                    <button class="button-forward">Forward <span class="icon"></span></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button-cancel"><span class="icon"></span> Cancel</button>
+                </td>
+                <td>
+                    <button class="button-submit">Submit <span class="icon"></span></button>
+                </td>
+                <td>
+                    <button class="button-remove"><span class="icon"></span> Remove</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button-add">Add <span class="icon"></span></button>
+                </td>
+                <td>
+                    <button class="button-edit"><span class="icon"></span> Edit</button>
+                </td>
+                <td>
+                    <button class="button-delete"><span class="icon"></span> Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button-save"><span class="icon"></span> Save</button>
+                </td>
+                <td>
+                    <button class="button-update">Update <span class="icon"></span></button>
+                </td>
+                <td>
+                    <button class="button-preview"><span class="icon"></span> Preview</button>
+                </td>
+            </tr>
+        </table>
+        <br /><br />
+        <h1>Form elements</h1>
+        <table>
+            <tr>
+                <td><input type="text" value="Text field" /></td>
+                <td><input type="text" class="error" value="Error text field" /></td>
+            </tr>
+            <tr>
+                <td><input type="password" value="Password field" /></td>
+                <td><input type="password" class="error" value="Error password field"></td>
+            </tr>
+            <tr>
+                <td><input type="email" value="Email field" /></td>
+                <td><input type="email" class="error" value="Error email field" /></td>
+            </tr>
+            <tr>
+                <td><textarea>Text area</textarea></td>
+                <td><textarea class="error">Error text area</textarea> </td>
+            </tr>
+        </table>
+        <br /><br />
+        <h1>Table sample</h1>
+        <table class="listTable">
+            <tr class="header">
+                <td>Header column 1</td>
+                <td>Header column 2</td>
+            </tr>
+            <tr>
+                <td>List item 1:1</td>
+                <td>List item 1:2</td>
+            </tr>
+            <tr>
+                <td>List item 2:1</td>
+                <td>List item 2:2</td>
+            </tr>
+            <tr>
+                <td>List item 3:1</td>
+                <td>List item 3:2</td>
+            </tr>
+            <tr>
+                <td>List item 4:1</td>
+                <td>List item 4:2</td>
+            </tr>
+        </table>
+    </body>
+</html>
